@@ -1,2 +1,11 @@
-# List of untracked files to ignore
-resources/
+# gitignore
+
+# игнорируем все в ./
+/*
+# кроме
+!/.gitignore
+!/.gitmodules
+!/*.prj
+!/*.md
+!/*.correlator
+!/*.gitattributes
